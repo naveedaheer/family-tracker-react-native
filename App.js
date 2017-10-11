@@ -6,7 +6,7 @@
 import React, { Component } from 'react';
 
 
-import { Container, StyleProvider, H2 } from 'native-base';
+import { Container, StyleProvider } from 'native-base';
 import getTheme from './src/native-base-theme/components';
 import aheerTracker from './src/native-base-theme/variables/aheerTracker';
 import Navigation from './src/native/components/navigator';

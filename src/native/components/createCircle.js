@@ -8,12 +8,12 @@ import { StyleSheet, AsyncStorage } from 'react-native';
 
 export default class CreateCircle extends Component {
     static navigationOptions = {
-        title: 'Add Patient Screen'
+        title: 'Create a Circle'
     };
     constructor() {
         super();
         this.state = {
-            circleName: 'Testing Circle'
+            circleName: ''
         }
 
         this.initialState = this.state;
@@ -26,8 +26,6 @@ export default class CreateCircle extends Component {
     createCircle() {
         console.log("this.state", this.state)
     }
-
-
 
     render() {
         var { navigate } = this.props.navigation;
