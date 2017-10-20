@@ -21,7 +21,7 @@
       android:name="com.google.android.geo.API_KEY"
       android:value="AIzaSyDKuQ0LDsxWseSHMvzm3ZLvyh0nlvWVmu4"/>
       
-      <activity
+      <activityFf
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize"

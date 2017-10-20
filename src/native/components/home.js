@@ -5,9 +5,10 @@ import { Container, Header, Left, Body, Right, Button, Icon, Title, Subtitle, Te
 export default class HeaderComponent extends Component {
     render() {
         var { navigate } = this.props.navigation;
-        
+
         return (
             <Container>
+
                 <Header>
 
                     <Body>
@@ -34,7 +35,9 @@ export default class HeaderComponent extends Component {
                         () => navigate("viewCircle", { name: "Naveed Aheer", website: "naveedaheer.com" })
                     }
                     title='view'
-                ><Text>View Circle</Text></Button>
+                ><Text>View Circle</Text>
+                </Button>
+
             </Container>
         );
     }
