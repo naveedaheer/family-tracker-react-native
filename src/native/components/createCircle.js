@@ -84,7 +84,7 @@ class CreateCircle extends Component {
             loading: false,
         }
         this.gotoCirleList = this.gotoCirleList.bind(this);
-        console.disableYellowBox = true;        
+        console.disableYellowBox = true;
     }
 
     gotoCirleList() {
@@ -112,7 +112,7 @@ class CreateCircle extends Component {
                 type: 'success',
                 duration: 5000,
             });
-            // this.gotoCirleList();
+            this.gotoCirleList();
         })
 
     }

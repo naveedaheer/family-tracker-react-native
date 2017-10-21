@@ -32,7 +32,7 @@ export default class HeaderComponent extends Component {
                     full
                     secondary
                     onPress={
-                        () => navigate("viewCircle", { name: "Naveed Aheer", website: "naveedaheer.com" })
+                        () => navigate("circleList", { name: "Naveed Aheer", website: "naveedaheer.com" })
                     }
                     title='view'
                 ><Text>View Circle</Text>
