@@ -14,7 +14,7 @@ export default class BodyComponent extends Component {
                     ...this.state.markers,
                     {
                         coordinate: postion.coords,
-                        key: id++
+                        // key: id++
                     }
                 ]
             }, null, { distanceFilter: 10 }
